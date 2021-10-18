@@ -1,6 +1,1 @@
-00:00:40 **** Incremental Build of configuration Debug for project Tp2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tp2.o" "..\\src\\Tp2.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Tp.o" "..\\src\\Tp.c" 
-gcc -o Tp2.exe "src\\Tp.o" "src\\Tp2.o" 
 Info: Nothing to build for Tp2

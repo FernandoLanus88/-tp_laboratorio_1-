@@ -23,8 +23,6 @@ int main()
 {
 
 
-	setbuf(stdout,NULL);
-
     char seguir = 's';
     int idEmpleado = 1;
     eEmpleado lista[LEN];
