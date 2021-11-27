@@ -1,5 +1,5 @@
-#ifndef TP2_H_INCLUDED
-#define TP2_H_INCLUDED
+#ifndef TPNUMERO2_H_INCLUDED
+#define TPNUMERO2_H_INCLUDED
 
 
 typedef struct
@@ -179,4 +179,5 @@ float validarFloat(char numero[]);
  */
 float calcularPromedio(eEmpleado lista [], int len, float* p, float* salario, int* sobrePromedio);
 
-#endif // TP2_H_INCLUDED
+
+#endif // TPNUMERO2_H_INCLUDED

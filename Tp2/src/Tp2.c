@@ -32,6 +32,10 @@ int main()
     float promedio;
     int sobrePromedio=0;
     int flag =1;
+    char nombre[51];
+    char apellido[51];
+    int sector=0;
+
 
 
     if(inicializarEmpleados(lista,LEN)==-1)
@@ -46,7 +50,7 @@ int main()
         switch(menu())
         {
         case 1:
-            if(agregarEmpleado(lista, LEN, &idEmpleado )==-1)
+            if(agregarEmpleado(lista, LEN, &idEmpleado, nombre, apellido, salario, sector )==-1)
             {
                 printf("No se pudo realizar el alta\n");
             }
@@ -115,4 +119,3 @@ int main()
 
     return 0;
 }
-

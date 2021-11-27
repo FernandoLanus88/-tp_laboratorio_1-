@@ -5,9 +5,7 @@
 #define ASC 1
 #define DESC 0
 #define LEN 1000
-#include "Tp2.h"
-
-
+#include "TPnumero2.h"
 
 
 int menu()
@@ -666,4 +664,5 @@ float validarFloat(char numero[])
 
     return todoOk;
 }
+
 
